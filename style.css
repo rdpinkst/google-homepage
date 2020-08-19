@@ -1,0 +1,21 @@
+.header{
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 75px 1fr 75px 75px 100px;
+}
+#google{
+   text-align: center;
+}
+.search{
+    text-align: center;
+    
+}
+.go-button{
+    text-align: center;
+}
+
+.foot{
+    display:grid;
+    grid-template-columns: 100px 100px 1fr 100px 100px 100px;
+    
+}
