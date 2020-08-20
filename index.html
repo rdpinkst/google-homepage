@@ -1,65 +1,39 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html
 <html>
     <head> 
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <title>Google</title>
-        <div class="header">
-            <div class="about">
-                <a href="">About</a>
-            </div>
-            <div class="store">
-                <a href="">Store</a>
-            </div>
-            <div class="gmail">
-                <a href="">Gmail</a>
-            </div>
-            <div class="images">
-                <a href="">Images</a>
-            </div>
-            <div class="signin">
-                <button name="submit">
-                    <strong>Sign In</strong>
-                </button>
-                
-            </div>
-
-        </div>
-        
     </head>
     <body>
-        <div id="google">
+        <nav class="head">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Gmail</a></li>
+                <li><a href=""> Images</a></li>
+                <li><button name="submit"><strong>Sign In</strong></button></li>
+            </ul>
+        </nav>
+        <div class="google">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-        </div>
-        <div class="search">
-            <form id="search-form">
-                <input type="text" name="search">
-            </form>
-        </div>
-        <div class="go-button">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+    
+            <form class="search-form">
+                <input type="text" name="search"><br><br>
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </form><br>
         </div>
     <footer>
-       <div class="foot"> 
-            <div class="advertising">
-                <a href="">Advertising</a>
-            </div>
-            <div class="business">
-                <a href="">Business</a>
-            </div>
-            <div class="how-search-works">
-                <a href="">How Search works</a>
-            </div>
-            <div class="privacy">
-                <a href="">Privacy</a>
-            </div>
-            <div class="terms">
-                <a href="">Terms</a>
-            </div>
-            <div class="settings">
-                <a href="">Settings</a>
-            </div>
-        </div>
+       <ul class="foot"> 
+             <li><a href="">Advertising</a></li>   
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search works</a></li>  
+            <li><a href="">Privacy</a></li>                
+            <li><a href="">Terms</a></li> 
+            <li><a href="">Settings</a></li>
+            
+       </ul>
         
 
     </footer>

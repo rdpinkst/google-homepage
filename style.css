@@ -1,21 +1,30 @@
-.header{
-    display: grid;
-    grid-area: header;
-    grid-template-columns: 75px 1fr 75px 75px 100px;
+ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    
+
 }
-#google{
-   text-align: center;
+li{
+   display: inline; 
+   padding: 8px;
+   
+
 }
-.search{
+img{
+    padding-bottom: 25px;
+}
+.google{
     text-align: center;
+    padding: 125px;
     
 }
-.go-button{
-    text-align: center;
+input [type=text]{
+    background-image: url('searchicon.png');
 }
 
-.foot{
-    display:grid;
-    grid-template-columns: 100px 100px 1fr 100px 100px 100px;
-    
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
