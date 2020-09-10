@@ -1,3 +1,77 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: small;
+    color:#222;
+    background-color: #fff;
+}
+
+a{
+    color: #5F6368;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    background-color: #4285f4;
+    border:none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+}
+
 ul{
     list-style: none;
     margin: 0;
@@ -7,10 +81,20 @@ ul{
 }
 li{
    display: inline; 
-   padding: 8px;
+   margin: 20px 8px 20px 8px;
    
 
 }
+
+.head{
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+.mover{
+    padding-left: 950px;
+}
+
 img{
     padding-bottom: 25px;
 }
@@ -19,12 +103,39 @@ img{
     padding: 125px;
     
 }
-input [type=text]{
-    background-image: url('searchicon.png');
+input[type=text]{
+    padding: 10px;
+    width:475px;
+    border-color: #f2f2f2;
+    border-width: 1px;
+    border-radius: 20px;
+    font-size: 16px;
+    background: transparent;
+}
+input[type=submit]{
+    color: #5F6368;
+    line-height: 35px;
+    border: solid 1px #f2f2f2;
+    font-size: 14px;
+    margin: 11px 4px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border-radius: 3px;
 }
 
+
+
+.move{
+    padding-left: 725px;
+}
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
+    line-height: 40px;
     width: 100%;
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: solid 1px #e4e4e4;
+    font-size: 14px;
 }
